@@ -13,6 +13,14 @@
 		88531BE02429799500FB589E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88531BDE2429799500FB589E /* Main.storyboard */; };
 		88531BE22429799800FB589E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88531BE12429799800FB589E /* Assets.xcassets */; };
 		88531BE52429799800FB589E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88531BE32429799800FB589E /* LaunchScreen.storyboard */; };
+		88531BED2431B79800FB589E /* CommonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88531BEC2431B79800FB589E /* CommonTools.swift */; };
+		885B1B602438465400F10235 /* BorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B5F2438465400F10235 /* BorderLabel.swift */; };
+		885B1B622439B66300F10235 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B612439B66300F10235 /* TableViewController.swift */; };
+		885B1B642439B70C00F10235 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B632439B70C00F10235 /* ScrollViewController.swift */; };
+		88FB2F192454133900F7615D /* YamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F182454133900F7615D /* YamaViewController.swift */; };
+		88FB2F1B24552A1A00F7615D /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F1A24552A1A00F7615D /* DragViewController.swift */; };
+		88FB2F1D2460155F00F7615D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F1C2460155F00F7615D /* ImageViewController.swift */; };
+		88FB2F1F24601DFF00F7615D /* ExtensionImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F1E24601DFF00F7615D /* ExtensionImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		88531BE12429799800FB589E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88531BE42429799800FB589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88531BE62429799800FB589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88531BEC2431B79800FB589E /* CommonTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTools.swift; sourceTree = "<group>"; };
+		885B1B5F2438465400F10235 /* BorderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLabel.swift; sourceTree = "<group>"; };
+		885B1B612439B66300F10235 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		885B1B632439B70C00F10235 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		88FB2F182454133900F7615D /* YamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamaViewController.swift; sourceTree = "<group>"; };
+		88FB2F1A24552A1A00F7615D /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
+		88FB2F1C2460155F00F7615D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		88FB2F1E24601DFF00F7615D /* ExtensionImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				88531BE12429799800FB589E /* Assets.xcassets */,
 				88531BE32429799800FB589E /* LaunchScreen.storyboard */,
 				88531BE62429799800FB589E /* Info.plist */,
+				88531BEC2431B79800FB589E /* CommonTools.swift */,
+				885B1B5F2438465400F10235 /* BorderLabel.swift */,
+				885B1B612439B66300F10235 /* TableViewController.swift */,
+				885B1B632439B70C00F10235 /* ScrollViewController.swift */,
+				88FB2F182454133900F7615D /* YamaViewController.swift */,
+				88FB2F1A24552A1A00F7615D /* DragViewController.swift */,
+				88FB2F1C2460155F00F7615D /* ImageViewController.swift */,
+				88FB2F1E24601DFF00F7615D /* ExtensionImageViewController.swift */,
 			);
 			path = Swift03;
 			sourceTree = "<group>";
@@ -139,7 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				88531BDD2429799500FB589E /* ViewController.swift in Sources */,
+				88FB2F1F24601DFF00F7615D /* ExtensionImageViewController.swift in Sources */,
+				88FB2F1B24552A1A00F7615D /* DragViewController.swift in Sources */,
+				88FB2F1D2460155F00F7615D /* ImageViewController.swift in Sources */,
+				885B1B622439B66300F10235 /* TableViewController.swift in Sources */,
+				88FB2F192454133900F7615D /* YamaViewController.swift in Sources */,
+				885B1B602438465400F10235 /* BorderLabel.swift in Sources */,
+				885B1B642439B70C00F10235 /* ScrollViewController.swift in Sources */,
 				88531BD92429799500FB589E /* AppDelegate.swift in Sources */,
+				88531BED2431B79800FB589E /* CommonTools.swift in Sources */,
 				88531BDB2429799500FB589E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,14 +316,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 33X6U2V87F;
 				INFOPLIST_FILE = Swift03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kakashi.Swift03;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.wtgtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wtg_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +337,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 33X6U2V87F;
 				INFOPLIST_FILE = Swift03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kakashi.Swift03;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.wtgtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = wtg_dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
