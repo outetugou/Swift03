@@ -17,6 +17,7 @@
 		885B1B602438465400F10235 /* BorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B5F2438465400F10235 /* BorderLabel.swift */; };
 		885B1B622439B66300F10235 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B612439B66300F10235 /* TableViewController.swift */; };
 		885B1B642439B70C00F10235 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885B1B632439B70C00F10235 /* ScrollViewController.swift */; };
+		8877567024645DCE0014457F /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8877566F24645DCE0014457F /* LocationViewController.swift */; };
 		88FB2F192454133900F7615D /* YamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F182454133900F7615D /* YamaViewController.swift */; };
 		88FB2F1B24552A1A00F7615D /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F1A24552A1A00F7615D /* DragViewController.swift */; };
 		88FB2F1D2460155F00F7615D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88FB2F1C2460155F00F7615D /* ImageViewController.swift */; };
@@ -36,6 +37,7 @@
 		885B1B5F2438465400F10235 /* BorderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLabel.swift; sourceTree = "<group>"; };
 		885B1B612439B66300F10235 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		885B1B632439B70C00F10235 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		8877566F24645DCE0014457F /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		88FB2F182454133900F7615D /* YamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamaViewController.swift; sourceTree = "<group>"; };
 		88FB2F1A24552A1A00F7615D /* DragViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
 		88FB2F1C2460155F00F7615D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				88FB2F1A24552A1A00F7615D /* DragViewController.swift */,
 				88FB2F1C2460155F00F7615D /* ImageViewController.swift */,
 				88FB2F1E24601DFF00F7615D /* ExtensionImageViewController.swift */,
+				8877566F24645DCE0014457F /* LocationViewController.swift */,
 			);
 			path = Swift03;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				88531BDD2429799500FB589E /* ViewController.swift in Sources */,
 				88FB2F1F24601DFF00F7615D /* ExtensionImageViewController.swift in Sources */,
 				88FB2F1B24552A1A00F7615D /* DragViewController.swift in Sources */,
+				8877567024645DCE0014457F /* LocationViewController.swift in Sources */,
 				88FB2F1D2460155F00F7615D /* ImageViewController.swift in Sources */,
 				885B1B622439B66300F10235 /* TableViewController.swift in Sources */,
 				88FB2F192454133900F7615D /* YamaViewController.swift in Sources */,
