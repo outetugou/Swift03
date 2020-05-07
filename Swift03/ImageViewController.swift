@@ -72,7 +72,7 @@ class ImageViewController: UIViewController {
         let aTitle = appName + "のプライバシー認証"
         let aMessage = "設定＞プライバシー" + appName + "で利用を許可してください。"
         let alert = UIAlertController(title: aTitle, message: aMessage, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "許可しないc", style: .default, handler: { (action) in
+        alert.addAction(UIAlertAction(title: "許可しないe", style: .default, handler: { (action) in
             self.shutterBtn.isEnabled = false
         }))
         alert.addAction(UIAlertAction(title: "設定を開く", style: .default, handler: { (action) in
